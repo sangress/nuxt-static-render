@@ -16,7 +16,7 @@
     "dist": "rollup -c rollup.config.js",
     "generate": "nuxt generate",
     "lint": "eslint --fix --ext .js src",
-    "postinstall": "rollup -c rollup.config.js"
+    "postinstall": "npm run dist"
   },
   "author": "Jonas Galvez <jonasgalvez@gmail.com>",
   "devDependencies": {
