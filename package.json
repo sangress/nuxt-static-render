@@ -6,17 +6,16 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "dist/nuxt-static-render.js",
+  "main": "src/index.js",
   "files": [
-    "dist"
+    "src"
   ],
   "scripts": {
     "dev": "nuxt dev",
     "build": "nuxt build",
     "dist": "rollup -c rollup.config.js",
     "generate": "nuxt generate",
-    "lint": "eslint --fix --ext .js src",
-    "postinstall": "npm run dist"
+    "lint": "eslint --fix --ext .js src"
   },
   "author": "Jonas Galvez <jonasgalvez@gmail.com>",
   "devDependencies": {
